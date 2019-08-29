@@ -73,9 +73,9 @@
 
 ### 使用方法
 
-`SMMS`为数据库文件，导入`sql server2014`数据库中。如果不能直接导入，则添加后缀名`*.bak`，再进行导入即可。
+1.`SMMS.bak`为数据库备份文件，在`sql server2014`数据库中还原数据库。
 
-项目文件夹`SupermarketMS`，使用`MyEclipse`进行导入即可。
+2.使用`MyEclipse`进行导入项目文件夹`SupermarketMS`即可。
 
 **可以改进的地方**
 
