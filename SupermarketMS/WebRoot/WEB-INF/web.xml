@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>  
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>control.servlet.admin.AdminLogin</servlet-class> 
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateLoginPwd</servlet-name>
+    <servlet-class>control.servlet.admin.UpdateLoginPwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertUser</servlet-name>
+    <servlet-class>control.servlet.user.InsertUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>control.servlet.user.DeleteUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectUserByName</servlet-name>
+    <servlet-class>control.servlet.user.SelectUserByName</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectUsername</servlet-name>
+    <servlet-class>control.servlet.user.SelectUsername</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUser</servlet-name>
+    <servlet-class>control.servlet.user.UpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectAllUser</servlet-name>
+    <servlet-class>control.servlet.user.SelectAllUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectUserByTruename</servlet-name>
+    <servlet-class>control.servlet.user.SelectUserByTruename</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StuffLogin</servlet-name>
+    <servlet-class>control.servlet.user.StuffLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectGroupmanager</servlet-name>
+    <servlet-class>control.servlet.user.SelectGroupmanager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateGroupmanager</servlet-name>
+    <servlet-class>control.servlet.user.UpdateGroupmanager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteGroupmanager</servlet-name>
+    <servlet-class>control.servlet.user.DeleteGroupmanager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertGroupmanager</servlet-name>
+    <servlet-class>control.servlet.user.InsertGroupmanager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RUpdateGroupmanager</servlet-name>
+    <servlet-class>control.servlet.user.RUpdateGroupmanager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GrantGroupmanager</servlet-name>
+    <servlet-class>control.servlet.user.GrantGroupmanager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestingUsername</servlet-name>
+    <servlet-class>control.servlet.user.TestingUsername</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RevokeGroupmanager</servlet-name>
+    <servlet-class>control.servlet.user.RevokeGroupmanager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxGetGroupnameByUsername</servlet-name>
+    <servlet-class>control.servlet.user.AjaxGetGroupnameByUsername</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectAllStuff</servlet-name>
+    <servlet-class>control.servlet.user.SelectAllStuff</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertStuff</servlet-name>
+    <servlet-class>control.servlet.user.InsertStuff</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectAllStock</servlet-name>
+    <servlet-class>control.servlet.stock.SelectAllStock</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectStock</servlet-name>
+    <servlet-class>control.servlet.stock.SelectStock</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertGoods</servlet-name>
+    <servlet-class>control.servlet.stock.InsertGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateStock</servlet-name>
+    <servlet-class>control.servlet.stock.UpdateStock</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteStock</servlet-name>
+    <servlet-class>control.servlet.stock.DeleteStock</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxSelectStock</servlet-name>
+    <servlet-class>control.servlet.stock.AjaxSelectStock</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxSelectGoodsById</servlet-name>
+    <servlet-class>control.servlet.stock.AjaxSelectGoodsById</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaleGoods</servlet-name>
+    <servlet-class>control.servlet.stock.SaleGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaleRecord</servlet-name>
+    <servlet-class>control.servlet.stock.SaleRecord</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePersonalInfo</servlet-name>
+    <servlet-class>control.servlet.user.UpdatePersonalInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>control.servlet.common.ImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MallLogin</servlet-name>
+    <servlet-class>control.servlet.user.MallLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BindAccount</servlet-name>
+    <servlet-class>control.servlet.common.BindAccount</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>control.servlet.common.Register</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/servlet/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateLoginPwd</servlet-name>
+    <url-pattern>/servlet/UpdateLoginPwd</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>InsertUser</servlet-name>
+    <url-pattern>/servlet/InsertUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/servlet/DeleteUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectUserByName</servlet-name>
+    <url-pattern>/servlet/SelectUserByName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectUsername</servlet-name>
+    <url-pattern>/servlet/SelectUsername</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUser</servlet-name>
+    <url-pattern>/servlet/UpdateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectAllUser</servlet-name>
+    <url-pattern>/servlet/SelectAllUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectUserByTruename</servlet-name>
+    <url-pattern>/servlet/SelectUserByTruename</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuffLogin</servlet-name>
+    <url-pattern>/servlet/StuffLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectGroupmanager</servlet-name>
+    <url-pattern>/servlet/SelectGroupmanager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateGroupmanager</servlet-name>
+    <url-pattern>/servlet/UpdateGroupmanager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteGroupmanager</servlet-name>
+    <url-pattern>/servlet/DeleteGroupmanager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertGroupmanager</servlet-name>
+    <url-pattern>/servlet/InsertGroupmanager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RUpdateGroupmanager</servlet-name>
+    <url-pattern>/servlet/RUpdateGroupmanager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GrantGroupmanager</servlet-name>
+    <url-pattern>/servlet/GrantGroupmanager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestingUsername</servlet-name>
+    <url-pattern>/servlet/TestingUsername</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RevokeGroupmanager</servlet-name>
+    <url-pattern>/servlet/RevokeGroupmanager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxGetGroupnameByUsername</servlet-name>
+    <url-pattern>/servlet/AjaxGetGroupnameByUsername</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectAllStuff</servlet-name>
+    <url-pattern>/servlet/SelectAllStuff</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertStuff</servlet-name>
+    <url-pattern>/servlet/InsertStuff</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectAllStock</servlet-name>
+    <url-pattern>/servlet/SelectAllStock</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectStock</servlet-name>
+    <url-pattern>/servlet/SelectStock</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertGoods</servlet-name>
+    <url-pattern>/servlet/InsertGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStock</servlet-name>
+    <url-pattern>/servlet/UpdateStock</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteStock</servlet-name>
+    <url-pattern>/servlet/DeleteStock</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxSelectStock</servlet-name>
+    <url-pattern>/servlet/AjaxSelectStock</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxSelectGoodsById</servlet-name>
+    <url-pattern>/servlet/AjaxSelectGoodsById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaleGoods</servlet-name>
+    <url-pattern>/servlet/SaleGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaleRecord</servlet-name>
+    <url-pattern>/servlet/SaleRecord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePersonalInfo</servlet-name>
+    <url-pattern>/servlet/UpdatePersonalInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MallLogin</servlet-name>
+    <url-pattern>/servlet/MallLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BindAccount</servlet-name>
+    <url-pattern>/servlet/BindAccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
